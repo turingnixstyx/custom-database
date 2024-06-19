@@ -14,7 +14,7 @@ jobs:
         uses: lukka/get-cmake@v2.1.1
 
       - name: Install dependencies
-        run: sudo apt-get install -y build-essential
+        run: sudo apt-get install -y build-essential libgtest-dev clang-format
 
       - name: Build
         run: |
@@ -25,3 +25,8 @@ jobs:
 
       - name: Run tests
         run: ./build/runTests
+
+      - name: Check clang-format
+        run: |
+          clang-format -i $(find . -name '*.cpp' -o -name '*.hpp')
+          git diff --exit-code

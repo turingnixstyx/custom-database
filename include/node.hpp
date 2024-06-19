@@ -3,9 +3,8 @@
 
 #include <vector>
 
-class Node
-{
-public:
+class Node {
+   public:
     bool isLeaf;
     std::vector<int> keys;
     std::vector<Node *> children;

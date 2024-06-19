@@ -3,9 +3,8 @@
 
 #include <string>
 
-class Record
-{
-public:
+class Record {
+   public:
     int id;
     std::string name;
     int age;
@@ -13,4 +12,4 @@ public:
     Record(int id, const std::string &name, int age);
 };
 
-#endif // RECORD_HPP
+#endif  // RECORD_HPP
