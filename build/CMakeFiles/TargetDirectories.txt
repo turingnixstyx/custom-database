@@ -1,0 +1,3 @@
+/Users/naman-mishra/my_cpp_database/build/CMakeFiles/my_cpp_database.dir
+/Users/naman-mishra/my_cpp_database/build/CMakeFiles/edit_cache.dir
+/Users/naman-mishra/my_cpp_database/build/CMakeFiles/rebuild_cache.dir
